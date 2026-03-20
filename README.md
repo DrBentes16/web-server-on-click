@@ -1,2 +1,25 @@
 # web-server-on-click
 Automação completa de um servidor web: do update do sistema ao deploy da aplicação em apenas um comando Bash.
+
+# Script de Provisionamento de Servidor Web (IAC)
+Este projeto consiste em um script de automação (Infrastructure as Code) para o provisionamento completo de um servidor web Apache em ambiente Linux (Ubuntu/Debian).
+
+##  O que o script faz?
+1. Atualiza os repositórios e pacotes do Sistema Operacional.
+2. Instala o servidor web **Apache2**.
+3. Instala o utilitário **Unzip**.
+4. Realiza o download de uma aplicação web de exemplo do GitHub.
+5. Realiza o deploy automático da aplicação na pasta padrão do servidor (`/var/www/html/`).
+
+##  Tecnologias Utilizadas
+* **Shell Script (Bash)**
+* **Linux (Ubuntu)**
+* **Apache2**
+* **Git/GitHub**
+
+## Como executar
+Para rodar este script, você precisará de permissões de superusuário (root).
+
+1. Clone o repositório:
+   ```bash
+git clone https://github.com/DrBentes16/web-server-on-click.git
